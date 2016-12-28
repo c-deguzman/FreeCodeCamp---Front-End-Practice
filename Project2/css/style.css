@@ -1,0 +1,223 @@
+body {
+  font-family: 'Arima Madurai', cursive;
+}
+
+#desc {
+  font-family: 'Arima Madurai', cursive;
+  font-size: 30px;
+  background: grey;
+  color:white;
+}
+
+#proj {
+  font-family: 'Arima Madurai', cursive;
+  font-size: 30px;
+  background: grey;
+  color:white;
+}
+
+#cont {
+  font-family: 'Arima Madurai', cursive;
+  font-size: 30px;
+  background: grey;
+  color:white;
+}
+
+#desc-area {
+  height: 300px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+header {
+  text-align:center;
+  padding-top: 70px;
+  padding-bottom: 50px;
+  font-family: 'Arima Madurai', cursive;
+}
+
+#code-camp-img {
+  width: 20%;
+  height: 20%;
+  margin-top: 30px;
+  margin-right: 100px;
+  margin-left: -20px;
+  
+  opacity: 1;
+  display: block;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  border-style: solid;
+  border-width: thin;
+  border-color: rgba(0,0,0,0.3);
+}
+
+nav {
+  background: #33cccc;
+  height: 70px;
+  width: 85%;
+  
+  line-height:50px;
+  position: relative;
+  border-color: black;
+  border-width: thin;
+  border-style: solid;
+}
+
+#content {
+  background: #fff;
+  height: 265px; /* presetting the height */
+  box-shadow: 0 0 5px rgba(0,0,0,0.3);
+  font-size: 20px;
+  margin-left: 100px;
+  margin-right: 50px;
+  margin-top: 10px;
+}
+
+#banner {
+  font-family: Monospace;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#inner-content {
+  position: relative;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 10px;
+  
+}
+
+#true-header {
+  background: #000000;
+  height: 60px;
+  width: 100%;
+  margin-left: 0px;
+  line-height:50px;
+  position: fixed;
+  top: 0;
+  padding-top: 5px;
+  color: white;
+  z-index: 999999;
+}
+
+.fixed {
+      position:fixed;
+}
+
+.container {
+    position: relative;
+    width: 50%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 55%;
+  left: 9.25%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.container:hover #code-camp-img {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+#proj-drop {
+  height: 89px;
+}
+
+#banner2 {
+  font-family: Calibri;
+  font-size: 40px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#nav2 {
+  background: #33ff33;
+  height: 70px;
+  width: 85%;
+  margin-bottom: 50px;
+  
+  line-height:50px;
+  position: relative;
+  border-color: black;
+  border-width: thin;
+  border-style: solid;
+}
+
+
+figcaption {
+    margin: 10px 0 0 0;
+    font-variant: small-caps;
+    font-family: 'Arima Madurai', cursive;
+    font-weight: bold;
+    color: black;
+}
+figure {
+    padding: 5px;
+}
+img:hover {
+    transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+img {
+    transition: transform 0.2s;
+    -webkit-transition: -webkit-transform 0.2s;
+    -moz-transition: -moz-transform 0.2s;
+    -o-transition: -o-transform 0.2s;
+}
+
+#cont-drop {
+  height: 89px;
+}
+
+#banner3 {
+  font-family: Arial;
+  font-size: 40px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#nav3 {
+  background: #ffcc66;
+  height: 70px;
+  width: 85%;
+  margin-bottom: 50px;
+  
+  line-height:50px;
+  position: relative;
+  border-color: black;
+  border-width: thin;
+  border-style: solid;
+}
+
+#contact {
+  border-width: thin;
+  border-style: solid;
+  padding: 10px 10px 10px 10px;
+}
