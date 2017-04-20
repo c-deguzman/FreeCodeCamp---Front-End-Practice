@@ -1,0 +1,81 @@
+p {
+  font-family: play;
+  color: white;
+  font-size: 40px;
+}
+
+body {
+  background: url("http://cdn.wallpapersafari.com/34/24/W7km3i.jpg") no-repeat center center fixed;
+  
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
+  width: 300px;
+
+}
+
+#city_line{
+  position: fixed;
+  font-size: 40px;
+  top: 0;
+  left: 0;
+
+}
+
+#city_background{
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: black;
+  opacity: 0.7;
+  height: 60px;
+}
+
+#temp{
+  text-align: center;
+  font-size: 200px;
+  width: 700px;
+  position: relative;
+  top: 150px;
+  left: 300px;
+  text-shadow: 5px 5px black;
+}
+
+#weather_desc{
+  text-align: center;
+  font-size: 100px;
+  width: 700px;
+  position: relative;
+  top: 50px;
+  left: 300px;
+  text-shadow: 2px 5px black;
+}
+
+#icon{
+  height: 300px;
+  width: 300px;
+
+  position: relative;
+  top: -220px;
+  left: 930px;
+}
+
+#units{
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  
+  height: 50px;
+  width: 100px;
+}
+
+#face{
+  height: 150px;
+  width: 150px;
+
+  position: relative;
+  top: -500px;
+  left: 140px;
+}
