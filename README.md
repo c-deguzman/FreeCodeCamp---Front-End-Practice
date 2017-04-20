@@ -1,2 +1,2 @@
 # FreeCodeCamp---Front-End-Practice
-Dump for front end practice projects
+Deposit of all Front End Projects, originally developed in codepen.io
