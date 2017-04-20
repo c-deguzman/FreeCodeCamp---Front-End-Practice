@@ -1,0 +1,4 @@
+Used Openweathermap api and geolocation api to find co-ordinates of viewer and display the local weather in their area. 
+
+TODO:
+Add 5 day forecast
