@@ -1,0 +1,44 @@
+#backdrop{
+  width: 100%;
+  height: 200%;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    padding: 10;
+}
+
+.gen_button{
+  position: fixed;
+  right: 0;
+  bottom: 0;
+}
+
+#tweet_button{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+body{
+  background-image: url("http://background-pictures.com/highresolution/l_169.jpg");
+  background-size: 100%;
+}
+ 
+#quote{
+  color: white;
+  font-size: 30px
+}
+
+#author{
+  color: white;
+  font-size: 20px;
+}
+
+#quote_area{
+  text-align: center;
+  background-color: rgba(20,110,255,0.6);
+  transform: translate(0, 150px);
+
+}
