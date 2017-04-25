@@ -1,0 +1,1 @@
+Project uses Wikipeida's API to search for articles relating to an enetered key word. Displays list of results with accompanying snippets of text from the relevant articles.
